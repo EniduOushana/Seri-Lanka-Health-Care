@@ -68,7 +68,68 @@ nav a:hover {
 
 
 
+/* General Styling for Lists */
+ol, ul {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
 
+/* Ordered List Styling */
+ol {
+    list-style-type: decimal;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: disc;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    ol, ul {
+        font-size: 0.9rem;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    ol, ul {
+        font-size: 0.8rem;
+        padding-left: 10px;
+    }
+}
+
+/* Adding Some Spacing Between List Items */
+ol li, ul li {
+    margin-bottom: 10px;
+}
+
+/* Optional: Styling for Hover Effects */
+ol li:hover, ul li:hover {
+    color: #007bff; /* Change text color on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Optional: Styling for Mobile Devices */
+@media (max-width: 480px) {
+    ol, ul {
+        margin: 15px 0;
+    }
+    ol li, ul li {
+        margin-bottom: 8px;
+    }
+}
+
+
+.booknow-btn {
+    background-color:  #00aaff;
+    border-color: transparent;
+    color: white;
+    border-radius: 6px;
+    align-content: center;
+}
 
 
 
